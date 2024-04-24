@@ -1,0 +1,126 @@
+.res{
+    height: 60px;
+    width: auto;
+    opacity: initial;
+
+    
+}
+.main{
+    background-color: black;
+}
+.qw{
+    background-color: black;
+}
+
+.home{
+    color: antiquewhite;
+    font-size: medium;
+    display: flex;
+    background-color: #2b3433;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.center{
+    display: block;
+    text-align: -webkit-center;
+    width: auto;
+}
+
+@use postcss-color-function;
+@use postcss-nested;
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+.search-container {
+        padding-top: 23px;
+    }
+
+.search-input {
+        width: 100%;
+        padding: 12px 24px;
+        background-color: transparent;
+        transition: transform 250ms ease-in-out;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #575756;
+        background-color: transparent;
+}
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #df133c 0, #df133c 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: #df133c(45, 35, 66, .4) 0 2px 4px,#df133c(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 38px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  padding-left: 7px;
+  padding-right: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.button-29:focus {
+  box-shadow: #df133c 0 0 0 1.5px inset, #df133c(45, 35, 66, .4) 0 2px 4px, #df133c(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: #df133c(45, 35, 66, .4) 0 4px 8px, #df133c(45, 35, 66, .3) 0 7px 13px -3px, #df133c 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #df133c 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 16.22%;
+    padding: 10px;
+    height: 20px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    height: 20px;
+  }
+
+    a {
+    color: whitesmoke;
+  }
+
+  .footer{
+
+
+    text-align: center;
+    color: #fff;
+    border-style: solid;
+    border-color: #df133c;
+    margin-top: 45%;
+    background-color: #111111;
+  }
